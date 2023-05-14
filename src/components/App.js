@@ -12,8 +12,9 @@ const App = () => {
         {/* Do not remove the main div */}
         <input 
         onChange={greet}
-        />  
-        <p>{value} &&(Hello {value}!)</p>
+        /> 
+        {value} && 
+        <p>(Hello {value}!)</p>
     </div>
   )
 }
