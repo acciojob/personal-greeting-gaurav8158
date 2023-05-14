@@ -14,7 +14,7 @@ const App = () => {
         onChange={greet}
         /> 
         {value} && 
-        <p>(Hello {value}!)</p>
+        <p>Hello {value}!</p>
     </div>
   )
 }
